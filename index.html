@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- mobile header -->
+    <div class="mobile-header header">
+      <div class="mobile-logo">
+        <h2>Portfolio<span>.</span></h2>
+      </div>
+      <div class="hamburger">&#9776;</div>
+      <nav class="mobile-navbar">
+        <ul class="d-flex">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- desktop header -->
+    <header class="header">
+      <div class="logo">
+        <h2>Portfolio<span>.</span></h2>
+      </div>
+      <nav class="desktop-nav mx-1">
+        <ul class="d-flex">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hero/home page -->
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 hero-left">
+            <div class="hero-content">
+              <h1 class="title">Hi, I'm Emilia</h1>
+              <h2 class="sub-title">Software Developer</h2>
+              <p class="intro-para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci officiis, et voluptatem molestias, cum, nihil dolorem
+                deserunt esse qui vitae eveniet? Dicta, assumenda voluptatibus
+                totam necessitatibus nam expedita veritatis at Lorem, ipsum
+                dolor sit amet consectetur adipisicing elit. Veritatis iste quae
+                maxime rem consequatur cupiditate quisquam dolorem sequi nemo,
+                praesentium fuga aut error
+              </p>
+              <button class="btn">Hire Me</button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 text-center hero-right">
+            <img
+              class="hero-img"
+              src="assets/hero-img.jpeg"
+              alt="Portrait of Lucy Dior, Software Developer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row align-items-center g-3">
+          <div class="col-12 col-sm-6 col-md-6 about-box">
+            <p class="about-para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              optio ab tenetur laudantium voluptatibus illo, officia architecto
+              sit expedita itaque nobis consequatur placeat aperiam voluptates
+              minima nemo, dignissimos quia Lorem ipsum, dolor sit amet
+              consectetur adipisicing
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 about-box">
+            <ul class="about-list">
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Freelance : Available
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>City : Berlin, Germany
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Language : German,
+                English, Hindi
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 about-box">
+            <ul class="about-list">
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Phone : +49 151 5555
+                0000
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i
+                ><a href="emilia.schmidt@example.com"
+                  >Mail : emilia.schmidt@example.com</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>
+                <a
+                  href="https://www.linkedin.com/in/emilia-schmidt-uxdev"
+                  target="_blank"
+                >
+                  Linkedin : https://www.linkedin.com/in/emilia-schmidt-uxdev</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats section -->
+    <section id="stats">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-regular fa-face-smile"></i>
+              </div>
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  232
+                </h2>
+                <strong>Happy Clients</strong>
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  521
+                </h2>
+                <strong>Projects</strong>
+                <p>consequuntur quae</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-solid fa-headphones"></i>
+              </div>
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="1623"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  923
+                </h2>
+                <strong>Hours Of Support</strong>
+                <p>rem deserunt ess</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-regular fa-user"></i>
+              </div>
+
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="337"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  39
+                </h2>
+                <strong>Hard Workers</strong>
+                <p>nam exptatis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>High School</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="year">2021</span>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="content">
+              <h3>University</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="year">2022</span>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>Internship</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="year">2023</span>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="content">
+              <h3>Job 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="year">2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 skill-content">
+            <div class="progress">
+              <span class="skill"><span>HTML</span><i>100%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 100%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>CSS</span><i>90%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 90%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>JAVASCRIPT</span><i>75%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 75%"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 skill-content">
+            <div class="progress">
+              <span class="skill"><span>PHP</span><i>80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 80%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>WORDPRESS/CMS</span><i>90%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 90%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>PHOTOSHOP</span><i>55%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="55"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 55%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img
+              src="assets/project1.jpeg"
+              alt="Digital Transformation image"
+            />
+            <div class="overlay-content">
+              <h4>Digital Transformation Dashboard</h4>
+              <p>
+                Lorem ipsum dolor sit ameting eli consectet Lorem ipsum dolor
+                sit amet con
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project2.jpeg" alt="Cloud Infrastructure image" />
+            <div class="overlay-content">
+              <h4>Cloud Infrastructure Visualization</h4>
+              <p>
+                Lorem ipsum dolor sit ameting eli consectet Lorem ipsum dolor
+                sit amet con
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project3.jpeg" alt="Tracker image" />
+            <div class="overlay-content">
+              <h4>Smart Sustainability Tracker</h4>
+              <p>
+                Lorem ipsum dolor sit ameting eli consectet Lorem ipsum dolor
+                sit amet con
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project4.jpeg" alt="Network Simulation image" />
+            <div class="overlay-content">
+              <h4>Distributed Network Simulation</h4>
+              <p>
+                Lorem ipsum dolor sit ameting eli consectet Lorem ipsum dolor
+                sit amet con
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img
+              src="assets/project5.jpeg"
+              alt="Cloud Data Management System image"
+            />
+            <div class="overlay-content">
+              <h4>Cloud Data Management System</h4>
+              <p>
+                Lorem ipsum dolor sit ameting eli consectet Lorem ipsum dolor
+                sit amet con
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img
+              src="assets/project6.jpeg"
+              alt="AI-Powered Automation image "
+            />
+            <div class="overlay-content">
+              <h4>AI-Powered Automation Model</h4>
+              <p>
+                Lorem ipsum dolor sit ameting eli consectet Lorem ipsum dolor
+                sit amet con
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5 contact-left">
+            <h2>Contact<span>Me!</span></h2>
+            <h5>if you have any project in your mind.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              vero fuga maiores similiet ducimrrupti numquam necessitatibus
+              animi voluptate tempo
+            </p>
+            <ul>
+              <li>+49 151 5555 0000</li>
+              <li>
+                <a
+                  href="mailto:emilia.schmidt@example.com"
+                  style="color: var(--gray-para)"
+                >
+                  emilia.schmidt@example.com
+                </a>
+              </li>
+              <li>Like Share & Subscribe</li>
+            </ul>
+            <div class="social-media">
+              <div class="social-media-icon d-flex2">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="social-media-icon d-flex2">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div class="social-media-icon d-flex2">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <div class="social-media-icon d-flex2">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 contact-right">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="input-field"
+              autocomplete="off"
+            />
+            <input
+              type="email"
+              placeholder="Your Email Address"
+              class="input-field"
+              autocomplete="off"
+            />
+            <input
+              type="number"
+              placeholder="Your Mobile Number"
+              class="input-field"
+              autocomplete="off"
+            />
+            <textarea placeholder="How Can I Help You" rows="8"></textarea>
+            <button class="btn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 footer-content">
+            <p>© Copyright <b>iPortfolio</b> All Rights Reserved</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+              dolorum corrupti est
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- PureCounter script -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <!-- js link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
